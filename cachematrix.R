@@ -1,6 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
-
+# This R script will cache the inverse of a matrix
+# to avoid computationally expensive calculations being
+# redone needlessly
+# please note as written it requires the matlib library
+#
 # example usage
 # > matrix_ordinary <- matrix(c(5, 1, 0,3,-1, 2, 4, 0,-1), nrow=3, byrow=TRUE)
 # example numbers from https://cran.r-project.org/web/packages/matlib/vignettes/inv-ex1.html
